@@ -18,3 +18,6 @@ Use WCH_LINK_UTILITY to upload the assembled bb.out.hex file to CH32V003 chip by
 connect TX of usb/serial dongle to PD6 and RX of usb/serial dongle to PD5 0f chip. open terraterm or any other console and set baud to 9600.
 connect the signal to be measured (square wave) to PD4 (ETR pin) and share grounds. Frequency values will be displayed on terminal.
 Leading zeros are not suppressed.I have only tested upto 65200Hz as that was the max square wave an UNO could generate with tone function.
+the hex file is for test2.asm without 0 suppression
+
+uploading another with 0 suppression, no hex file.
