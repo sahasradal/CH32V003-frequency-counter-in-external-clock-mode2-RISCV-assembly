@@ -20,4 +20,4 @@ connect the signal to be measured (square wave) to PD4 (ETR pin) and share groun
 Leading zeros are not suppressed.I have only tested upto 65200Hz as that was the max square wave an UNO could generate with tone function.
 the hex file is for test2.asm without 0 suppression
 
-uploading another with 0 suppression, no hex file.
+uploading another with 0 suppression and hex file.
